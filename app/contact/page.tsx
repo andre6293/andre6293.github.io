@@ -4,9 +4,36 @@ export default function ContactPage() {
       <h1 className="text-3xl font-bold">Contact</h1>
 
       <ul className="space-y-2">
-        <li>Email: you@example.com</li>
-        <li>GitHub: github.com/yourname</li>
-        <li>LinkedIn: linkedin.com/in/yourname</li>
+        <li>
+          <a
+            href="mailto:andrepinto@mailfence.com.br"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-400 hover:underline"
+          >
+            E-mail
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://github.com/andre6293"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-400 hover:underline"
+          >
+            Github
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://www.linkedin.com/in/pinto-andre"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-400 hover:underline"
+          >
+            LinkedIn
+          </a>
+        </li>
       </ul>
     </section>
   );
