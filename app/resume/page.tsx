@@ -4,11 +4,7 @@ export default function ResumePage() {
       <h1 className="text-3xl font-bold">Resume</h1>
 
       <div>
-        <h2 className="font-semibold">Software Engineer III</h2>
-
-        <p className="text-zinc-400">
-          Backend systems, AI integrations, event-driven architecture.
-        </p>
+        <h2 className="font-semibold">Work in progress</h2>
       </div>
     </section>
   );

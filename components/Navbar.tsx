@@ -2,9 +2,9 @@ import Link from "next/link";
 
 const links = [
   ["Resume", "/resume"],
-  ["Blog", "/blog"],
-  ["Music", "/music"],
-  ["3D", "/3d"],
+  // ["Blog", "/blog"],
+  // ["Music", "/music"],
+  // ["3D", "/3d"],
   ["Contact", "/contact"],
 ];
 
@@ -13,7 +13,7 @@ export default function Navbar() {
     <nav className="border-b border-zinc-800">
       <div className="max-w-4xl mx-auto flex gap-6 p-4">
         <Link href="/" className="font-bold">
-          Andre
+          Andre Pinto
         </Link>
 
         {links.map(([label, href]) => (
